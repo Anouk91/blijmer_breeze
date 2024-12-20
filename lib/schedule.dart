@@ -23,14 +23,13 @@ class _SchedulePageState extends State<SchedulePage> {
     setState(() {
       jsonResult = jsonDecode(data); //latest Dart
     });
-    // print("data loaded $jsonResult");
   }
 
   @override
   Widget build(BuildContext context) {
     double screenWidth = MediaQuery.of(context).size.width;
     Axis direction = screenWidth > 1000 ? Axis.horizontal : Axis.vertical;
-    print("screenWidth $screenWidth");
+    double textWidth = screenWidth > 1000 ? screenWidth / 2 : screenWidth;
     List locations = jsonResult.isEmpty
         ? []
         : (widget.day == "26-01-2025" ? jsonResult[0]["locations"] : jsonResult[1]["locations"]);
@@ -40,57 +39,56 @@ class _SchedulePageState extends State<SchedulePage> {
         : SingleChildScrollView(
             child: Flex(
                 direction: direction,
-                crossAxisAlignment: CrossAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.start,
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
                 ...locations.map((location) {
-                  return Padding(
-                    padding: EdgeInsets.symmetric(vertical: 20),
-                    child: Column(
-                      children: [
-                        Text(
-                          location["location"],
-                          style: TextStyle(fontWeight: FontWeight.bold, fontSize: 40, color: Colors.lightBlue[900]),
-                        ),
-                        SizedBox(
-                            width: 500, child: Text(location["description"], style: const TextStyle(fontSize: 14))),
-                        ...location["events"].map((event) {
-                          return Padding(
-                              padding: const EdgeInsets.symmetric(vertical: 0),
-                              child: Row(mainAxisAlignment: MainAxisAlignment.center, children: [
-                                Padding(
-                                    padding: const EdgeInsets.only(right: 3),
-                                    child: Column(crossAxisAlignment: CrossAxisAlignment.end, children: [
-                                      Text('${event["start"]}', style: const TextStyle(fontStyle: FontStyle.italic)),
-                                      const Text('  '),
-                                      Text('${event["end"]}', style: const TextStyle(fontStyle: FontStyle.italic)),
-                                    ])),
-                                Container(
-                                  decoration: const BoxDecoration(
-                                      border: Border(left: BorderSide(color: Colors.lightBlue, width: 3)),
-                                      borderRadius: BorderRadius.all(Radius.circular(10))),
-                                  width: 400,
-                                  child: Padding(
-                                    padding: const EdgeInsets.all(20),
-                                    child: Column(
-                                      crossAxisAlignment: CrossAxisAlignment.start,
-                                      children: [
-                                        Text('${event["title"]} ',
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.bold,
-                                                fontSize: 18,
-                                                color: Colors.lightBlue[900])),
-                                        Text(event["description"]),
-                                      ],
+                  return Column(
+                    children: [
+                      Text(
+                        location["location"],
+                        style: TextStyle(fontWeight: FontWeight.bold, fontSize: 40, color: Colors.lightBlue[900]),
+                      ),
+                      SizedBox(
+                          width: textWidth * 0.85,
+                          child: Text('${location["description"]}\n', style: const TextStyle(fontSize: 14))),
+                      ...location["events"].map((event) {
+                        return Padding(
+                            padding: const EdgeInsets.symmetric(vertical: 0),
+                            child: Row(mainAxisAlignment: MainAxisAlignment.center, children: [
+                              Padding(
+                                  padding: const EdgeInsets.only(right: 3),
+                                  child: Column(crossAxisAlignment: CrossAxisAlignment.end, children: [
+                                    Text('${event["start"]}', style: const TextStyle(fontStyle: FontStyle.italic)),
+                                    const Text('  '),
+                                    Text('${event["end"]}', style: const TextStyle(fontStyle: FontStyle.italic)),
+                                  ])),
+                              Container(
+                                decoration: const BoxDecoration(
+                                    border: Border(
+                                      left: BorderSide(color: Colors.lightBlue, width: 2),
                                     ),
+                                    borderRadius: BorderRadius.only(
+                                        topLeft: Radius.circular(10), bottomLeft: Radius.circular(10))),
+                                width: textWidth * 0.8,
+                                child: Padding(
+                                  padding: const EdgeInsets.all(20),
+                                  child: Column(
+                                    crossAxisAlignment: CrossAxisAlignment.start,
+                                    children: [
+                                      Text('${event["title"]} ',
+                                          style: TextStyle(
+                                              fontWeight: FontWeight.bold, fontSize: 18, color: Colors.lightBlue[900])),
+                                      Text(event["description"]),
+                                    ],
                                   ),
-                                )
-                              ]));
-                        }).toList(),
-                      ],
-                    ),
+                                ),
+                              )
+                            ]));
+                      }).toList(),
+                    ],
                   );
-                }).toList(),
+                }),
 
                 // SizedBox(
                 //     height: 100,

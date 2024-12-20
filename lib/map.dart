@@ -6,6 +6,11 @@ class MapPage extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return Image(image: AssetImage('assets/plattegrond.png'));
+    return InteractiveViewer(
+        panEnabled: false, // Set it to false
+        boundaryMargin: EdgeInsets.all(100),
+        minScale: 0.5,
+        maxScale: 2,
+        child: Image(image: AssetImage('assets/plattegrond.png')));
   }
 }
