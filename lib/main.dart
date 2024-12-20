@@ -59,7 +59,7 @@ class _MyHomePageState extends State<MyHomePage> {
           body: NotificationListener<ScrollNotification>(
             onNotification: (scrollNotification) => true,
             child: TabBarView(
-              // physics: const NeverScrollableScrollPhysics(),
+              physics: const NeverScrollableScrollPhysics(),
               children: listWidgets,
             ),
           ),
