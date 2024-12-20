@@ -1,37 +1,115 @@
 [
     {
-        "Groenhoven": [
+        "date": "26-01-2025",
+        "locations": [
             {
-                "title": "Yoga",
-                "host": "Ammer",
-                "description": "Yoga voor jong en oud!",
-                "subscribe": true,
-                "start": "16:00 26-01-2025",
-                "end": "16:00 26-01-2025"
+                "location": "Groenhoven",
+                "address": "Groenhoven 650",
+                "postcode": "1103 LT",
+                "description": "Bar Groenhoven is een gezellige bar in de buurt van de Amsterdamse Poort. De bar is gelegen in een woonwijk en is een ontmoetingsplek voor de buurtbewoners. Het is open van woensdag tot zondag, en draait volledig op vrijwilligers. Naast de bar zijn er ook 2 zalen die verhuurd kunnen worden voor feesten en partijen, maar ook voor terugkerende evenementen zoals yoga, danslessen en bingo.",
+                "events": [
+                    {
+                        "title": "Yoga",
+                        "host": "Ammer",
+                        "description": "Yoga voor jong en oud!",
+                        "subscribe": true,
+                        "start": "16:00 ",
+                        "end": "17:00 "
+                    },
+                    {
+                        "title": "Wildpluk wandeling",
+                        "host": "Jola",
+                        "description": "Ja ja, zelfs in de winter is er nog genoeg te vinden in de natuur!",
+                        "subscribe": true,
+                        "start": "16:00 ",
+                        "end": "17:00 "
+                    },
+                    {
+                        "title": "Wildpluk diner",
+                        "host": "Jola",
+                        "description": "Onze lokale held zingt over zijn leven en de geschiedenis van de buurt.",
+                        "subscribe": true,
+                        "start": "18:00 ",
+                        "end": "20:00 "
+                    },
+                    {
+                        "title": "Salsa",
+                        "host": "Ernesto en Sanne",
+                        "description": "La Esquina Cubana is een Cubaanse dansschool met locaties in Amsterdam, Almere, Hoorn/Zwaag en Utrecht. Ernesto Betancourt – zelf afkomstig uit Santiago de Cuba – richtte de dansschool op in 2009 met het doel zijn liefde voor de Cubaanse dansen te delen met anderen. Cuba is door haar historie rijk aan een groot repertoir aan dansstijlen, zoals Casino, Rumba, Reggaeton, Rueda, Mambo, Chacha, Afro-Cubaans, en Son. Als danser in verschillende professionele dansgezelschappen waaronder het wereldberoemde Cabaret Tropicana deed Ernesto veel ervaring op met deze stijlen, en ontwikkelde zich zo tot de technisch geschoolde danser die hij is. La Esquina Cubana staat dan ook bekend als dansschool met technische- en kwalitatief sterke lessen. Uiteraard ben je van harte welkom om dit ook te ervaren, we nodigen je graag uit voor een GRATIS proefles!",
+                        "subscribe": true,
+                        "start": "20:00 ",
+                        "end": "21:30 "
+                    },
+                    {
+                        "title": "Piet Karregat",
+                        "host": "Piet Karregat",
+                        "description": "Onze lokale held zingt over zijn leven en de geschiedenis van de buurt.",
+                        "subscribe": true,
+                        "start": "21:30 ",
+                        "end": "22:30 "
+                    },
+                    {
+                        "title": "Jazz",
+                        "host": "Thijs en huisgenoten",
+                        "description": "Wat is het toch tof als je conservatorium buren hebben, geef ze een warm applaus!!",
+                        "subscribe": true,
+                        "start": "22:30",
+                        "end": "23:30"
+                    }
+                ]
             },
             {
-                "title": "Wildpluk wandeling",
-                "host": "Jola",
-                "description": "Ja ja, zelfs in de winter is er nog genoeg te vinden in de natuur!",
-                "subscribe": true,
-                "start": "16:00 26-01-2025",
-                "end": "16:00 26-01-2025"
+                "location": "Gouden Leeuw",
+                "adress": "Gouden Leeuw 900",
+                "postcode": "1103 KV",
+                "description": "De Gouden Leeuw is het broertje van Groenhoven en is ook een gezellige bar in de buurt van de Amsterdamse Poort. De bar is gelegen in een woonwijk en is een ontmoetingsplek voor de buurtbewoners.",
+                "events": [
+                    {
+                        "title": "Zang en dans",
+                        "host": "Jeremy Oliver",
+                        "description": "-",
+                        "subscribe": true,
+                        "start": "15:00 ",
+                        "end": "17:00 "
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "25-01-2025",
+        "locations": [
+            {
+                "location": "Bijlmermuseum",
+                "adress": "Bijlmermuseum 1",
+                "postcode": "1103 KV",
+                "description": "Het Bijlmermuseum is een museum in de Bijlmermeer in Amsterdam-Zuidoost. Het museum is gevestigd in. Het museum heeft een vaste collectie.",
+                "events": [
+                    {
+                        "title": "Opening",
+                        "host": "Van alles",
+                        "description": "Koffiebrunch, creatieve workshops, koken, (buiten)spel, Bijlmer toen, nu & morgen; soep op de stoep, Muziekmakers, buurtmaaltijd, lichtschilderen en een nachtwandeling",
+                        "subscribe": true,
+                        "start": "10:00 ",
+                        "end": "17:00 "
+                    }
+                ]
             },
             {
-                "title": "Wildpluk diner",
-                "host": "Jola",
-                "description": "Onze lokale held zingt over zijn leven en de geschiedenis van de buurt.",
-                "subscribe": true,
-                "start": "20:00 26-01-2025",
-                "end": "21:30:00 26-01-2025"
-            },
-            {
-                "title": "Piet Karregat",
-                "host": "Piet Karregat",
-                "description": "Onze lokale held zingt over zijn leven en de geschiedenis van de buurt.",
-                "subscribe": true,
-                "start": "20:00 26-01-2025",
-                "end": "21:30:00 26-01-2025"
+                "location": "Van Buuren",
+                "adress": "Van Buuren 1",
+                "postcode": "1103 KV",
+                "description": "Van Buuren is een gezellige bar in de buurt van de Amsterdamse Poort. De bar is gelegen in een woonwijk en is een ontmoetingsplek voor de buurtbewoners.",
+                "events": [
+                    {
+                        "title": "DJ met Afrobeats en Afrikaanse hapjes",
+                        "host": "Van Buuren",
+                        "description": "Lekker dansen en hapjes eten, wat wil een mens nog meer!",
+                        "subscribe": true,
+                        "start": "19:00 ",
+                        "end": "00:30 "
+                    }
+                ]
             }
         ]
     }
