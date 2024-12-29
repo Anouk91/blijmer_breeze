@@ -92,6 +92,22 @@
                         "subscribe": true,
                         "start": "10:00 ",
                         "end": "17:00 "
+                    }, 
+                    {
+                        "title": " Creatieve workshops",
+                        "host": "Madelon Timmers",
+                        "description": "Lekker met de handen iets creeren, onder het thema toekomst.",
+                        "subscribe": false,
+                        "start": "14:00 ",
+                        "end": "17:00 "
+                    }, 
+                    {
+                        "title": " Brunch",
+                        "host": "-",
+                        "description": "Leer je buren kennen en kom brunchen",
+                        "subscribe": false,
+                        "start": "14:00 ",
+                        "end": "17:00 "
                     }
                 ]
             },
