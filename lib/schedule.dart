@@ -9,6 +9,23 @@ class SchedulePage extends StatefulWidget {
   State<SchedulePage> createState() => _SchedulePageState();
 }
 
+extension HexColor on Color {
+  /// String is in the format "aabbcc" or "ffaabbcc" with an optional leading "#".
+  static Color fromHex(String hexString) {
+    final buffer = StringBuffer();
+    if (hexString.length == 6 || hexString.length == 7) buffer.write('ff');
+    buffer.write(hexString.replaceFirst('#', ''));
+    return Color(int.parse(buffer.toString(), radix: 16));
+  }
+
+  /// Prefixes a hash sign if [leadingHashSign] is set to `true` (default is `true`).
+  String toHex({bool leadingHashSign = true}) => '${leadingHashSign ? '#' : ''}'
+      '${alpha.toRadixString(16).padLeft(2, '0')}'
+      '${red.toRadixString(16).padLeft(2, '0')}'
+      '${green.toRadixString(16).padLeft(2, '0')}'
+      '${blue.toRadixString(16).padLeft(2, '0')}';
+}
+
 class _SchedulePageState extends State<SchedulePage> {
   List jsonResult = [];
 
@@ -45,13 +62,19 @@ class _SchedulePageState extends State<SchedulePage> {
                 ...locations.map((location) {
                   return Column(
                     children: [
-                      Text(
-                        location["location"],
-                        style: TextStyle(fontWeight: FontWeight.bold, fontSize: 40, color: Colors.lightBlue[900]),
-                      ),
+                      Container(
+                          color: HexColor.fromHex(location["color"]),
+                          child: Padding(
+                              padding: EdgeInsets.symmetric(horizontal: 13, vertical: 3),
+                              child: Text(
+                                location["location"],
+                                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 40, color: Colors.white),
+                              ))),
                       SizedBox(
                           width: textWidth * 0.85,
-                          child: Text('${location["description"]}\n', style: const TextStyle(fontSize: 14))),
+                          child: Padding(
+                              padding: EdgeInsets.only(top: 15),
+                              child: Text('${location["description"]}\n', style: const TextStyle(fontSize: 16)))),
                       ...location["events"].map((event) {
                         return Padding(
                             padding: const EdgeInsets.symmetric(vertical: 0),
@@ -59,14 +82,18 @@ class _SchedulePageState extends State<SchedulePage> {
                               Padding(
                                   padding: const EdgeInsets.only(right: 3),
                                   child: Column(crossAxisAlignment: CrossAxisAlignment.end, children: [
-                                    Text('${event["start"]}', style: const TextStyle(fontStyle: FontStyle.italic)),
+                                    Text('${event["start"]} ',
+                                        style:
+                                            const TextStyle(fontStyle: FontStyle.italic, fontWeight: FontWeight.bold)),
                                     const Text('  '),
-                                    Text('${event["end"]}', style: const TextStyle(fontStyle: FontStyle.italic)),
+                                    Text('${event["end"]} ',
+                                        style:
+                                            const TextStyle(fontStyle: FontStyle.italic, fontWeight: FontWeight.bold)),
                                   ])),
                               Container(
-                                decoration: const BoxDecoration(
+                                decoration: BoxDecoration(
                                     border: Border(
-                                      left: BorderSide(color: Colors.lightBlue, width: 2),
+                                      left: BorderSide(color: HexColor.fromHex(location["color"]), width: 2),
                                     ),
                                     borderRadius: BorderRadius.only(
                                         topLeft: Radius.circular(10), bottomLeft: Radius.circular(10))),
@@ -78,7 +105,9 @@ class _SchedulePageState extends State<SchedulePage> {
                                     children: [
                                       Text('${event["title"]} ',
                                           style: TextStyle(
-                                              fontWeight: FontWeight.bold, fontSize: 18, color: Colors.lightBlue[900])),
+                                              fontWeight: FontWeight.bold,
+                                              fontSize: 18,
+                                              color: HexColor.fromHex(location["color"]))),
                                       Text(event["description"]),
                                     ],
                                   ),

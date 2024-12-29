@@ -6,47 +6,48 @@
                 "location": "Groenhoven",
                 "address": "Groenhoven 650",
                 "postcode": "1103 LT",
-                "description": "Bar Groenhoven is een gezellige bar in de buurt van de Amsterdamse Poort. De bar is gelegen in een woonwijk en is een ontmoetingsplek voor de buurtbewoners. Het is open van woensdag tot zondag, en draait volledig op vrijwilligers. Naast de bar zijn er ook 2 zalen die verhuurd kunnen worden voor feesten en partijen, maar ook voor terugkerende evenementen zoals yoga, danslessen en bingo.",
+                "color": "#3e9e39",
+                "description": "Bar Groenhoven is een gezellige bar in Bijlmer Oost. De bar is gelegen in een woonwijk en is een ontmoetingsplek voor de buurtbewoners. Het is open van woensdag tot zondag, en draait volledig op vrijwilligers. Naast de bar zijn er ook 2 zalen die verhuurd kunnen worden voor feesten en partijen, maar ook voor terugkerende evenementen zoals yoga, danslessen en bingo.",
                 "events": [
-                    {
-                        "title": "Yoga",
-                        "host": "Ammer",
-                        "description": "Yoga voor jong en oud!",
-                        "subscribe": true,
-                        "start": "16:00 ",
-                        "end": "17:00 "
-                    },
                     {
                         "title": "Wildpluk wandeling",
                         "host": "Jola",
                         "description": "Ja ja, zelfs in de winter is er nog genoeg te vinden in de natuur!",
                         "subscribe": true,
-                        "start": "16:00 ",
-                        "end": "17:00 "
+                        "start": "16:00",
+                        "end": "17:00"
+                    },
+                    {
+                        "title": "Yoga",
+                        "host": "Ammer",
+                        "description": "Yoga voor jong en oud!",
+                        "subscribe": true,
+                        "start": "17:00",
+                        "end": "18:00"
                     },
                     {
                         "title": "Wildpluk diner",
                         "host": "Jola",
                         "description": "Onze lokale held zingt over zijn leven en de geschiedenis van de buurt.",
                         "subscribe": true,
-                        "start": "18:00 ",
-                        "end": "20:00 "
+                        "start": "18:00",
+                        "end": "20:00"
                     },
                     {
                         "title": "Salsa",
                         "host": "Ernesto en Sanne",
                         "description": "La Esquina Cubana is een Cubaanse dansschool met locaties in Amsterdam, Almere, Hoorn/Zwaag en Utrecht. Ernesto Betancourt – zelf afkomstig uit Santiago de Cuba – richtte de dansschool op in 2009 met het doel zijn liefde voor de Cubaanse dansen te delen met anderen. Cuba is door haar historie rijk aan een groot repertoir aan dansstijlen, zoals Casino, Rumba, Reggaeton, Rueda, Mambo, Chacha, Afro-Cubaans, en Son. Als danser in verschillende professionele dansgezelschappen waaronder het wereldberoemde Cabaret Tropicana deed Ernesto veel ervaring op met deze stijlen, en ontwikkelde zich zo tot de technisch geschoolde danser die hij is. La Esquina Cubana staat dan ook bekend als dansschool met technische- en kwalitatief sterke lessen. Uiteraard ben je van harte welkom om dit ook te ervaren, we nodigen je graag uit voor een GRATIS proefles!",
                         "subscribe": true,
-                        "start": "20:00 ",
-                        "end": "21:30 "
+                        "start": "20:00",
+                        "end": "21:30"
                     },
                     {
-                        "title": "Piet Karregat",
+                        "title": "Piet Karregat met NXPCT",
                         "host": "Piet Karregat",
                         "description": "Onze lokale held zingt over zijn leven en de geschiedenis van de buurt.",
                         "subscribe": true,
-                        "start": "21:30 ",
-                        "end": "22:30 "
+                        "start": "21:30",
+                        "end": "22:30"
                     },
                     {
                         "title": "Jazz",
@@ -62,6 +63,7 @@
                 "location": "Gouden Leeuw",
                 "adress": "Gouden Leeuw 900",
                 "postcode": "1103 KV",
+                "color": "#e2511a",
                 "description": "De Gouden Leeuw is het broertje van Groenhoven en is ook een gezellige bar in de buurt van de Amsterdamse Poort. De bar is gelegen in een woonwijk en is een ontmoetingsplek voor de buurtbewoners.",
                 "events": [
                     {
@@ -69,8 +71,16 @@
                         "host": "Jeremy Oliver",
                         "description": "-",
                         "subscribe": true,
-                        "start": "15:00 ",
-                        "end": "17:00 "
+                        "start": "15:00",
+                        "end": "17:00"
+                    },
+                    {
+                        "title": "Diner",
+                        "host": "uit eigen keuken",
+                        "description": "Er wordt gekookt met een goud randje.",
+                        "subscribe": "rozeingoud@ziggo.nl",
+                        "start": "18:00",
+                        "end": "20:00"
                     }
                 ]
             }
@@ -83,6 +93,7 @@
                 "location": "Bijlmermuseum",
                 "adress": "Bijlmermuseum 1",
                 "postcode": "1103 KV",
+                "color": "#2a89c2",
                 "description": "Het Bijlmermuseum is een museum in de Bijlmermeer in Amsterdam-Zuidoost. Het museum is gevestigd in de flat van Grubbehoeven. Het museum heeft een vaste collectie.",
                 "events": [
                     {
@@ -90,8 +101,32 @@
                         "host": "Van alles",
                         "description": "Koffiebrunch, creatieve workshops, koken, (buiten)spel, Bijlmer toen, nu & morgen; soep op de stoep, Muziekmakers, buurtmaaltijd, lichtschilderen en een nachtwandeling",
                         "subscribe": true,
-                        "start": "10:00 ",
-                        "end": "17:00 "
+                        "start": "10:00",
+                        "end": "17:00"
+                    },
+                    {
+                        "title": " Creatieve workshops",
+                        "host": "Madelon Timmers",
+                        "description": "Lekker met de handen iets creeren, onder het thema toekomst.",
+                        "subscribe": false,
+                        "start": "14:00",
+                        "end": "17:00"
+                    },
+                    {
+                        "title": " Brunch",
+                        "host": "-",
+                        "description": "Leer je buren kennen en kom brunchen",
+                        "subscribe": false,
+                        "start": "14:00",
+                        "end": "17:00"
+                    },
+                    {
+                        "title": " Diner",
+                        "host": "-",
+                        "description": "Leer je buren kennen en kom brunchen",
+                        "subscribe": "crgrubbehoeven@gmail.com",
+                        "start": "14:00",
+                        "end": "17:00"
                     }
                 ]
             },
@@ -99,6 +134,7 @@
                 "location": "Van Buuren",
                 "adress": "Van Buuren 1",
                 "postcode": "1103 KV",
+                "color": "#e2511a",
                 "description": "Van Buuren is een gezellige bar in de buurt van de Amsterdamse Poort. De bar is gelegen in een woonwijk en is een ontmoetingsplek voor de buurtbewoners.",
                 "events": [
                     {
@@ -106,8 +142,8 @@
                         "host": "Van Buuren",
                         "description": "Lekker dansen en hapjes eten, wat wil een mens nog meer!",
                         "subscribe": true,
-                        "start": "19:00 ",
-                        "end": "00:30 "
+                        "start": "19:00",
+                        "end": "00:30"
                     }
                 ]
             }
