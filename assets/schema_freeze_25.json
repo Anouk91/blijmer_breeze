@@ -28,7 +28,7 @@
                     {
                         "title": "Wildpluk diner",
                         "host": "Jola",
-                        "description": "Onze lokale held zingt over zijn leven en de geschiedenis van de buurt.",
+                        "description": "Eten wat de natuur schaft en zojuist is geplukt",
                         "subscribe": true,
                         "start": "18:00",
                         "end": "20:00"
@@ -39,7 +39,7 @@
                         "description": "La Esquina Cubana is een Cubaanse dansschool met locaties in Amsterdam, Almere, Hoorn/Zwaag en Utrecht. Ernesto Betancourt – zelf afkomstig uit Santiago de Cuba – richtte de dansschool op in 2009 met het doel zijn liefde voor de Cubaanse dansen te delen met anderen. Cuba is door haar historie rijk aan een groot repertoir aan dansstijlen, zoals Casino, Rumba, Reggaeton, Rueda, Mambo, Chacha, Afro-Cubaans, en Son. Als danser in verschillende professionele dansgezelschappen waaronder het wereldberoemde Cabaret Tropicana deed Ernesto veel ervaring op met deze stijlen, en ontwikkelde zich zo tot de technisch geschoolde danser die hij is. La Esquina Cubana staat dan ook bekend als dansschool met technische- en kwalitatief sterke lessen. Uiteraard ben je van harte welkom om dit ook te ervaren, we nodigen je graag uit voor een GRATIS proefles!",
                         "subscribe": true,
                         "start": "20:00",
-                        "end": "21:30"
+                        "end": "21:00"
                     },
                     {
                         "title": "Piet Karregat met NXPCT",
@@ -123,7 +123,7 @@
                     {
                         "title": " Diner",
                         "host": "-",
-                        "description": "Leer je buren kennen en kom brunchen",
+                        "description": "Leer je buren kennen en kom dineren",
                         "subscribe": "crgrubbehoeven@gmail.com",
                         "start": "14:00",
                         "end": "17:00"
