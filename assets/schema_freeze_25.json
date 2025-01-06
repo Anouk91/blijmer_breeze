@@ -138,12 +138,12 @@
                 "description": "Van Buuren is een gezellige bar in de buurt van de Amsterdamse Poort. De bar is gelegen in een woonwijk en is een ontmoetingsplek voor de buurtbewoners.",
                 "events": [
                     {
-                        "title": "DJ met Afrobeats en Afrikaanse hapjes",
+                        "title": "DJ Emmanuella en DJ KENZ",
                         "host": "Van Buuren",
-                        "description": "Lekker dansen en hapjes eten, wat wil een mens nog meer!",
+                        "description": "Dansavond met afrobeats",
                         "subscribe": true,
-                        "start": "19:00",
-                        "end": "00:30"
+                        "start": "21:00",
+                        "end": "00:00"
                     }
                 ]
             }
