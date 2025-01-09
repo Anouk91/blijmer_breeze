@@ -91,42 +91,74 @@
         "locations": [
             {
                 "location": "Bijlmermuseum",
-                "adress": "Bijlmermuseum 1",
-                "postcode": "1103 KV",
+                "adress": "Grubbehoeve 38",
+                "postcode": "1103 GH",
                 "color": "#2a89c2",
-                "description": "Het Bijlmermuseum is een museum in de Bijlmermeer in Amsterdam-Zuidoost. Het museum is gevestigd in de flat van Grubbehoeven. Het museum heeft een vaste collectie.",
+                "description": "De collectieve ruimte van Grubbehoeve, bekend als Bijlmermuseum, voorheen De Nachtegaal, is een levendige ontmoetings- en werkplek voor de buurt. De vaste collectie met o.a utopische plannen, foto’s, dia’s, video’s, kranten is een blijvende inspiratiebron.",
                 "events": [
                     {
-                        "title": "Opening",
-                        "host": "Van alles",
-                        "description": "Koffiebrunch, creatieve workshops, koken, (buiten)spel, Bijlmer toen, nu & morgen; soep op de stoep, Muziekmakers, buurtmaaltijd, lichtschilderen en een nachtwandeling",
+                        "title": "Koffiebrunch",
+                        "host": "Team lunches",
+                        "description": "Stel je eigen brunch samen. Met hartige en zoete lekkernijen. Prijs v.a. 1,00",
                         "subscribe": true,
-                        "start": "10:00",
+                        "start": "11:00",
                         "end": "17:00"
                     },
                     {
-                        "title": " Creatieve workshops",
+                        "title": "Freeze-sjablonen, creatieve workshop",
+                        "host": "Lena Davidovich",
+                        "description": "Binnen ontwerp je een eigen straatsjabloon voor Bijlmer Freeze en buiten markeren we de routes naar de collectieve ruimtes",
+                        "subscribe": false,
+                        "start": "14:00",
+                        "end": "17:00"
+                    },
+                    {
+                        "title": "Iedereen is een maker",
                         "host": "Madelon Timmers",
-                        "description": "Lekker met de handen iets creeren, onder het thema toekomst.",
+                        "description": "Maak een ontdekkingsreis naar je eigen creativiteit.",
                         "subscribe": false,
                         "start": "14:00",
                         "end": "17:00"
                     },
                     {
-                        "title": " Brunch",
-                        "host": "-",
-                        "description": "Leer je buren kennen en kom brunchen",
+                        "title": "Buurtkeuken koken",
+                        "host": "Jaap Tijsze",
+                        "description": "Samen koken is ontmoeten. Ontdek hoe je samen een fantastische buurtmaaltijd voor een grote groep bereidt",
                         "subscribe": false,
                         "start": "14:00",
-                        "end": "17:00"
+                        "end": "20:00"
                     },
                     {
-                        "title": " Diner",
-                        "host": "-",
-                        "description": "Leer je buren kennen en kom dineren",
+                        "title": "Muziekmakers",
+                        "host": "Diverse pianisten en muzikanten",
+                        "description": "Van Boogie Woogie tot populair, zing mee als je zin hebt",
+                        "subscribe": false,
+                        "start": "16:00"
+                        "end": "18:00"
+                    },
+                    {
+                        "title": "Buurtmaaltijd",
+                        "host": "Jaap en buurtgenoten",
+                        "description": "Leer je buren kennen en kom dineren. Gratis voor iedereen die vandaag een handje meehielp. Meld je aan als vrijwilliger info@grubbehoeve.nl. Ben je bezoeker, dan betaal je 12,50.",
                         "subscribe": "crgrubbehoeven@gmail.com",
-                        "start": "14:00",
-                        "end": "17:00"
+                        "start": "18:00"
+                        "end": "20:00"
+                    },
+                    {
+                        "title": "Bijlmer nachtwandeling",
+                        "host": "Peter Dautzenberg",
+                        "description": "Ontdek het fascinerende perspectief van stedebouwkunde in het donker. Verzamelen 19:30. We lopen richting Van Buuren om te landen in het gezellige buurtcafeetje",
+                        "subscribe": false,
+                        "start": "20:00"
+                        "end": "22:00"
+                    }
+                    {
+                        "title": "Light Painting",
+                        "host": "Project Light Art",
+                        "description": "Ontdek hoe je met licht de mooiste figuren maakt of je naam in spiegelbeeld in de lucht schrijft",
+                        "subscribe": false,
+                        "start": "20:00"
+                        "end": "22:00"
                     }
                 ]
             },
