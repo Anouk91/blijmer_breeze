@@ -109,6 +109,10 @@ class _SchedulePageState extends State<SchedulePage> {
                                               fontSize: 18,
                                               color: HexColor.fromHex(location["color"]))),
                                       Text(event["description"]),
+                                      Text(
+                                        "${event["subscribe"] != null ? 'Reserveren via: ${event["subscribe"]}' : ""}",
+                                        style: TextStyle(fontStyle: FontStyle.italic, fontWeight: FontWeight.bold),
+                                      )
                                     ],
                                   ),
                                 ),

@@ -13,7 +13,7 @@
                         "title": "Wildpluk wandeling",
                         "host": "Jola",
                         "description": "Ja ja, zelfs in de winter is er nog genoeg te vinden in de natuur!",
-                        "subscribe": true,
+                        "subscribe": null,
                         "start": "16:00",
                         "end": "17:00"
                     },
@@ -21,7 +21,7 @@
                         "title": "Yoga",
                         "host": "Ammer",
                         "description": "Yoga voor jong en oud!",
-                        "subscribe": true,
+                        "subscribe": null,
                         "start": "17:00",
                         "end": "18:00"
                     },
@@ -29,7 +29,7 @@
                         "title": "Wildpluk diner",
                         "host": "Jola",
                         "description": "Eten wat de natuur schaft en zojuist is geplukt",
-                        "subscribe": "Eeen link hier",
+                        "subscribe": "Hier komt zsm de goede reserveringslink te staan!",
                         "start": "18:00",
                         "end": "20:00"
                     },
@@ -37,7 +37,7 @@
                         "title": "Salsa",
                         "host": "Ernesto en Sanne",
                         "description": "La Esquina Cubana is een Cubaanse dansschool met locaties in Amsterdam, Almere, Hoorn/Zwaag en Utrecht. Ernesto Betancourt – zelf afkomstig uit Santiago de Cuba – richtte de dansschool op in 2009 met het doel zijn liefde voor de Cubaanse dansen te delen met anderen. Cuba is door haar historie rijk aan een groot repertoir aan dansstijlen, zoals Casino, Rumba, Reggaeton, Rueda, Mambo, Chacha, Afro-Cubaans, en Son. Als danser in verschillende professionele dansgezelschappen waaronder het wereldberoemde Cabaret Tropicana deed Ernesto veel ervaring op met deze stijlen, en ontwikkelde zich zo tot de technisch geschoolde danser die hij is. La Esquina Cubana staat dan ook bekend als dansschool met technische- en kwalitatief sterke lessen. Uiteraard ben je van harte welkom om dit ook te ervaren, we nodigen je graag uit voor een GRATIS proefles!",
-                        "subscribe": true,
+                        "subscribe": null,
                         "start": "20:00",
                         "end": "21:00"
                     },
@@ -45,7 +45,7 @@
                         "title": "Piet Karregat met NXPCT",
                         "host": "Piet Karregat",
                         "description": "Onze lokale held zingt over zijn leven en de geschiedenis van de buurt.",
-                        "subscribe": true,
+                        "subscribe": null,
                         "start": "21:30",
                         "end": "22:30"
                     },
@@ -53,7 +53,7 @@
                         "title": "Jazz",
                         "host": "Thijs en huisgenoten",
                         "description": "Wat is het toch tof als je conservatorium buren hebben, geef ze een warm applaus!!",
-                        "subscribe": true,
+                        "subscribe": null,
                         "start": "22:30",
                         "end": "23:30"
                     }
@@ -64,23 +64,31 @@
                 "adress": "Gouden Leeuw 900",
                 "postcode": "1103 KV",
                 "color": "#e2511a",
-                "description": "De Gouden Leeuw is het broertje van Groenhoven en is ook een gezellige bar in de buurt van de Amsterdamse Poort. De bar is gelegen in een woonwijk en is een ontmoetingsplek voor de buurtbewoners.",
+                "description": "Tijdens de Bijlmer Freeze met de te verwachten lage temperaturen wil Gouden Leeuw de zon laten schijnen. De weg naar GL900 waar zondagmiddag bij ons de Bijlmer Freeze plaats vindt zal voor een paar uur omgedoopt worden tot ROUTE DU SOLEIL. Volg het zonnetje..",
                 "events": [
                     {
                         "title": "Zang en dans",
                         "host": "Jeremy Oliver",
-                        "description": "-",
-                        "subscribe": true,
+                        "description": "Waar het buiten koud is klinken binnen de warme klanken van JEREMY OLIVIER en zijn gitaar en laat de zon in je hart schijnen. ",
+                        "subscribe": null,
                         "start": "15:00",
                         "end": "17:00"
                     },
                     {
+                        "title": "Gezellige bar",
+                        "host": "-",
+                        "description": "Wees welkom in onze gezellige bar",
+                        "subscribe": null,
+                        "start": "17:00",
+                        "end": "18:30"
+                    },
+                    {
                         "title": "Diner",
-                        "host": "uit eigen keuken",
-                        "description": "Er wordt gekookt met een goud randje.",
+                        "host": "Uit eigen keuken",
+                        "description": "een hartverwarmende winterse maaltijd geserveerd worden waarvoor reserveren noodzakelijk is. vooraf Wild bouillon, HACHEE, aardappel puree, Rode Kool en een stoofpeertje. Panna cotta toe. € 17.50.",
                         "subscribe": "rozeingoud@ziggo.nl",
-                        "start": "18:00",
-                        "end": "20:00"
+                        "start": "18:30",
+                        "end": "21:00"
                     }
                 ]
             }
@@ -100,7 +108,7 @@
                         "title": "Koffiebrunch",
                         "host": "Team lunches",
                         "description": "Stel je eigen brunch samen. Met hartige en zoete lekkernijen. Prijs v.a. 1,00",
-                        "subscribe": true,
+                        "subscribe": null,
                         "start": "11:00",
                         "end": "17:00"
                     },
@@ -108,7 +116,7 @@
                         "title": "Freeze-sjablonen, creatieve workshop",
                         "host": "Lena Davidovich",
                         "description": "Binnen ontwerp je een eigen straatsjabloon voor Bijlmer Freeze en buiten markeren we de routes naar de collectieve ruimtes",
-                        "subscribe": false,
+                        "subscribe": null,
                         "start": "14:00",
                         "end": "17:00"
                     },
@@ -116,7 +124,7 @@
                         "title": "Iedereen is een maker",
                         "host": "Madelon Timmers",
                         "description": "Maak een ontdekkingsreis naar je eigen creativiteit.",
-                        "subscribe": false,
+                        "subscribe": null,
                         "start": "14:00",
                         "end": "17:00"
                     },
@@ -124,7 +132,7 @@
                         "title": "Buurtkeuken koken",
                         "host": "Jaap Tijsze",
                         "description": "Samen koken is ontmoeten. Ontdek hoe je samen een fantastische buurtmaaltijd voor een grote groep bereidt",
-                        "subscribe": false,
+                        "subscribe": null,
                         "start": "14:00",
                         "end": "20:00"
                     },
@@ -132,7 +140,7 @@
                         "title": "Muziekmakers",
                         "host": "Diverse pianisten en muzikanten",
                         "description": "Van Boogie Woogie tot populair, zing mee als je zin hebt",
-                        "subscribe": false,
+                        "subscribe": null,
                         "start": "16:00",
                         "end": "18:00"
                     },
@@ -148,7 +156,7 @@
                         "title": "Bijlmer nachtwandeling",
                         "host": "Peter Dautzenberg",
                         "description": "Ontdek het fascinerende perspectief van stedebouwkunde in het donker. Verzamelen 19:30. We lopen richting Van Buuren om te landen in het gezellige buurtcafeetje",
-                        "subscribe": false,
+                        "subscribe": null,
                         "start": "20:00",
                         "end": "22:00"
                     },
@@ -156,7 +164,7 @@
                         "title": "Light Painting",
                         "host": "Project Light Art",
                         "description": "Ontdek hoe je met licht de mooiste figuren maakt of je naam in spiegelbeeld in de lucht schrijft",
-                        "subscribe": false,
+                        "subscribe": null,
                         "start": "20:00",
                         "end": "22:00"
                     }
@@ -173,7 +181,7 @@
                         "title": "DJ Emmanuella en DJ KENZ",
                         "host": "Van Buuren",
                         "description": "Dansavond met afrobeats",
-                        "subscribe": true,
+                        "subscribe": null,
                         "start": "21:00",
                         "end": "00:00"
                     }
