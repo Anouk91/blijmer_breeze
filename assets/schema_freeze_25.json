@@ -133,7 +133,7 @@
                         "host": "Diverse pianisten en muzikanten",
                         "description": "Van Boogie Woogie tot populair, zing mee als je zin hebt",
                         "subscribe": false,
-                        "start": "16:00"
+                        "start": "16:00",
                         "end": "18:00"
                     },
                     {
@@ -141,7 +141,7 @@
                         "host": "Jaap en buurtgenoten",
                         "description": "Leer je buren kennen en kom dineren. Gratis voor iedereen die vandaag een handje meehielp. Meld je aan als vrijwilliger info@grubbehoeve.nl. Ben je bezoeker, dan betaal je 12,50.",
                         "subscribe": "crgrubbehoeven@gmail.com",
-                        "start": "18:00"
+                        "start": "18:00",
                         "end": "20:00"
                     },
                     {
@@ -149,7 +149,7 @@
                         "host": "Peter Dautzenberg",
                         "description": "Ontdek het fascinerende perspectief van stedebouwkunde in het donker. Verzamelen 19:30. We lopen richting Van Buuren om te landen in het gezellige buurtcafeetje",
                         "subscribe": false,
-                        "start": "20:00"
+                        "start": "20:00",
                         "end": "22:00"
                     },
                     {
@@ -157,7 +157,7 @@
                         "host": "Project Light Art",
                         "description": "Ontdek hoe je met licht de mooiste figuren maakt of je naam in spiegelbeeld in de lucht schrijft",
                         "subscribe": false,
-                        "start": "20:00"
+                        "start": "20:00",
                         "end": "22:00"
                     }
                 ]
