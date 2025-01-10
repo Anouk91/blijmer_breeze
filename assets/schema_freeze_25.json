@@ -29,7 +29,7 @@
                         "title": "Wildpluk diner",
                         "host": "Jola",
                         "description": "Eten wat de natuur schaft en zojuist is geplukt",
-                        "subscribe": true,
+                        "subscribe": "Eeen link hier",
                         "start": "18:00",
                         "end": "20:00"
                     },
