@@ -112,17 +112,14 @@ class _SchedulePageState extends State<SchedulePage> {
                                       Text(event["description"]),
                                       if (event["subscribe"] != null)
                                         if (event["subscribe"].startsWith("https"))
-                                          Row(children: [
+                                          Row(crossAxisAlignment: CrossAxisAlignment.start, children: [
                                             Text("Reserveren via: "),
                                             InkWell(
-                                              child: const Padding(
-                                                padding: EdgeInsets.all(16.0),
-                                                child: Text(
-                                                  'Open Google Form',
-                                                  style: TextStyle(
-                                                    color: Colors.blue,
-                                                    decoration: TextDecoration.underline,
-                                                  ),
+                                              child: const Text(
+                                                'dit formulier',
+                                                style: TextStyle(
+                                                  color: Colors.blue,
+                                                  decoration: TextDecoration.underline,
                                                 ),
                                               ),
                                               onTap: () => launchUrlString(event["subscribe"]),
