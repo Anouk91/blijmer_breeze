@@ -12,15 +12,24 @@
                     {
                         "title": "Wildpluk wandeling",
                         "host": "Jola",
-                        "description": "Ja ja, zelfs in de winter is er nog genoeg te vinden in de natuur!",
-                        "subscribe": null,
-                        "start": "16:00",
-                        "end": "17:00"
+                        "description": "Wildpluk-gids Yola Galinsky neemt je mee door de Bijlmerweide en laat je stilstaan bij eetbare wilde kruiden- en plantensoorten waar je normaal misschien aan voorbij zou gaan. Tijdens de wandeling gaan we op zoek naar wat er onopgemerkt om ons heen groeit en bloeit, zowel in de stad als daarbuiten.",
+                        "subscribe": "https://forms.gle/BaJB6W5FMx1YgeaPA",
+                        "start": "15:00",
+                        "end": "16:00"
+                    },
+                    {
+                        "title": "Wildpluk wandeling",
+                        "host": "Jola",
+                        "description": "Yola laat zien hoe je met de zojuist geplukte kruiden, wortels bladeren en stengels een heerlijke winterse maaltijd kan bereiden. Leer van haar de kneepjes van het vak en leer ook koken uit eigen 'achtertuin'",
+                        "subscribe": "https://forms.gle/BaJB6W5FMx1YgeaPA",
+                        "start": "16:30",
+                        "end": "18:00"
                     },
                     {
                         "title": "Yoga",
                         "host": "Ammer",
                         "description": "Onze eigen buurman Ammer is professioneel yoga docent en gaat een lesje geven dat zowel geschikt is voor beginners als gevorderde. Neem wel je eigen matje mee. Heb je die niet, wellicht kun je er eentje lenen en anders hebben wij 5 reserve. Tot dan!",
+                        "subscribe": "https://forms.gle/WgG8VWhBeUGPrJGz7",
                         "start": "17:00",
                         "end": "18:00"
                     },
@@ -28,7 +37,7 @@
                         "title": "Wildpluk diner",
                         "host": "Jola",
                         "description": "Eten wat de natuur schaft en zojuist is geplukt",
-                        "subscribe": "Hier komt zsm de goede reserveringslink te staan!",
+                        "subscribe": "https://forms.gle/BaJB6W5FMx1YgeaPA",
                         "start": "18:00",
                         "end": "20:00"
                     },

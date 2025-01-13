@@ -1,6 +1,7 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher_string.dart';
 
 class SchedulePage extends StatefulWidget {
   const SchedulePage(this.day, {super.key});
@@ -109,10 +110,29 @@ class _SchedulePageState extends State<SchedulePage> {
                                               fontSize: 18,
                                               color: HexColor.fromHex(location["color"]))),
                                       Text(event["description"]),
-                                      Text(
-                                        "${event["subscribe"] != null ? 'Reserveren via: ${event["subscribe"]}' : ""}",
-                                        style: TextStyle(fontStyle: FontStyle.italic, fontWeight: FontWeight.bold),
-                                      )
+                                      if (event["subscribe"] != null)
+                                        if (event["subscribe"].startsWith("https"))
+                                          Row(children: [
+                                            Text("Reserveren via: "),
+                                            InkWell(
+                                              child: const Padding(
+                                                padding: EdgeInsets.all(16.0),
+                                                child: Text(
+                                                  'Open Google Form',
+                                                  style: TextStyle(
+                                                    color: Colors.blue,
+                                                    decoration: TextDecoration.underline,
+                                                  ),
+                                                ),
+                                              ),
+                                              onTap: () => launchUrlString(event["subscribe"]),
+                                            )
+                                          ])
+                                        else
+                                          Text(
+                                            "${'Reserveren via: ${event["subscribe"]}'}",
+                                            style: TextStyle(fontStyle: FontStyle.italic, fontWeight: FontWeight.bold),
+                                          )
                                     ],
                                   ),
                                 ),
