@@ -18,14 +18,6 @@
                         "end": "16:00"
                     },
                     {
-                        "title": "Wildpluk wandeling",
-                        "host": "Jola",
-                        "description": "Yola laat zien hoe je met de zojuist geplukte kruiden, wortels bladeren en stengels een heerlijke winterse maaltijd kan bereiden. Leer van haar de kneepjes van het vak en leer ook koken uit eigen 'achtertuin'",
-                        "subscribe": "https://forms.gle/BaJB6W5FMx1YgeaPA",
-                        "start": "16:30",
-                        "end": "18:00"
-                    },
-                    {
                         "title": "Yoga",
                         "host": "Ammer",
                         "description": "Onze eigen buurman Ammer is professioneel yoga docent en gaat een lesje geven dat zowel geschikt is voor beginners als gevorderde. Neem wel je eigen matje mee. Heb je die niet, wellicht kun je er eentje lenen en anders hebben wij 5 reserve. Tot dan!",
@@ -36,7 +28,7 @@
                     {
                         "title": "Wildpluk diner",
                         "host": "Jola",
-                        "description": "Eten wat de natuur schaft en zojuist is geplukt. Vegetarisch hoofd en nagerecht. Kosten €10.",
+                        "description": "Eten wat de natuur schaft en zojuist is geplukt. Vegetarische soep, stokbrood en pesto spread als toetje een mouse. Kosten €10.",
                         "subscribe": "https://forms.gle/BaJB6W5FMx1YgeaPA",
                         "start": "18:00",
                         "end": "20:00"
@@ -186,7 +178,7 @@
                 "description": "Van Buuren is een gezellige bar in de buurt van de Amsterdamse Poort. De bar is gelegen in een woonwijk en is een ontmoetingsplek voor de buurtbewoners.",
                 "events": [
                     {
-                        "title": "DJ Emmanuella en DJ KENZ", 
+                        "title": "DJ Emmanuella en DJ KENZ",
                         "host": "Van Buuren",
                         "description": "Dansavond met afrobeats",
                         "subscribe": null,
