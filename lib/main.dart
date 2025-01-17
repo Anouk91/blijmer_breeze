@@ -1,6 +1,7 @@
 import 'package:blijmer_breeze/map.dart';
 import 'package:blijmer_breeze/schedule.dart';
 import 'package:flutter/material.dart';
+import 'dart:html' as html show window;
 
 void main() {
   runApp(const MyApp());
@@ -31,6 +32,7 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
+    html.window.location.reload();
     List<Widget> listWidgets = [
       const SchedulePage("25-01-2025"),
       const SchedulePage("26-01-2025"),
