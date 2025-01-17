@@ -2,6 +2,7 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher_string.dart';
+import 'dart:html' as html show window;
 
 class SchedulePage extends StatefulWidget {
   const SchedulePage(this.day, {super.key});
@@ -33,6 +34,8 @@ class _SchedulePageState extends State<SchedulePage> {
   @override
   void initState() {
     super.initState();
+    html.window.location.reload();
+
     loadData();
   }
 
