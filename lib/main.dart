@@ -1,5 +1,5 @@
-import 'package:blijmer_breeze/map.dart';
-import 'package:blijmer_breeze/schedule.dart';
+import 'package:bijlmer_breeze/schedule.dart';
+import 'package:bijlmer_breeze/map.dart';
 import 'package:flutter/material.dart';
 
 void main() {
